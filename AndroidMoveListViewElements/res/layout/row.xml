@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ivSlide"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="center"
+        android:src="@drawable/slide" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/ivSlide"
+        android:gravity="center_vertical"
+        android:text="TEST"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+</RelativeLayout>
